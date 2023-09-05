@@ -9,7 +9,7 @@ Use of the following libraries in this project :
 
 EuroVoc_2.xlsx is the Excel file which contain all statements from AI Act and GDPR Article and their predicted descriptors.
 
-EuroVoc_copie_3.xlsx is the Excel file which contain all highest similarity scores for each statement from the AI Act.
+EuroVoc_copie_3.xlsx is the Excel file which contain all highest similarity scores for each statement from the AI Act (compared with each statement from GDPR Article).
 
 eurovoc_export_en_modif.xlsx is the Excel file with EuroVoc descriptors and their ID.
 

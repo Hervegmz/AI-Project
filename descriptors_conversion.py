@@ -1,12 +1,9 @@
 import pandas as pd
 
-# Charger le premier fichier Excel
 fichier1 = pd.read_excel('.\Excel\EuroVoc_copie2.xlsx',sheet_name='Sheet1')
 #fichier2 = pd.read_excel('Eurovoc_2.xlsx',sheet_name='Sheet2')
 
-# Charger le deuxième fichier Excel
 fichier3 = pd.read_excel('.\Excel\eurovoc_export_en_modif.xlsx')
-# Créer un dictionnaire de correspondance à partir du deuxième fichier
 correspondance = dict(zip(fichier3['ID'], fichier3['PT']))
 print(correspondance)
 
@@ -47,7 +44,6 @@ for index, row in fichier1.iterrows():
     # Mettre à jour la colonne 'Correspondance' avec les résultats
     fichier2.at[index, 'Descriptors'] = ''.join(str(correspondances2))
 '''
-# Afficher le résultat
 with pd.ExcelWriter('.\Excel\EuroVoc_copie3.xlsx') as writer :
     fichier1.to_excel(writer)
     #fichier2.to_excel(writer,sheet_name='Sheet2')

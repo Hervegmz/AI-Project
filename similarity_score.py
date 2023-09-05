@@ -40,12 +40,13 @@ for index,row in dfnew.iterrows():
     ai_point ="‘small-scale provider’ means a provider that is a micro or small enterprise within the meaning of Commission Recommendation 2003/361/EC 61 ;"
     current = row['GDPR Point']
     score = compute_similarity(ai_point,current)
-    
-    result.append((ai_point, current, score))
+    if score>max_score:
+        max_score=score
+        column = current
+        result.append((ai_point, column, max_score))
 df_final=pd.DataFrame(result,columns=['AI Point','GDPR Point','Similarity_score'])
 df_sorted = df_final.sort_values(by='Similarity_score',ascending=False)
 print(df_final)
 
 with pd.ExcelWriter('.\Excel\similarity_whole_ai.xlsx') as writer :
-    df_final.to_excel(writer)
     df_sorted.to_excel(writer,sheet_name='sheet2')

@@ -1,5 +1,10 @@
 # AI-Project
 
+Modif à faire :
+--
+Décrire les fichiers Excel, ajouter les nouveaux fichiers python. Mettre le text_extraction.py ?
+Description globale du repository.
+
 Python version : 3.8.10 
 
 ----------------
@@ -48,7 +53,6 @@ EuroVoc_2.xlsx is the Excel file which contain all statements from AI Act and GD
 EuroVoc_copie_3.xlsx is the Excel file which contain all highest similarity scores for each statement from the AI Act (compared with each statement from GDPR Article).
 
 eurovoc_export_en_modif.xlsx is the Excel file with EuroVoc descriptors and their ID (convert into int type).
-
 
 
 

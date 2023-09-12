@@ -2,7 +2,7 @@
 
 Modif à faire :
 --
-Décrire les fichiers Excel, ajouter les nouveaux fichiers python. Mettre le text_extraction.py ?
+ajouter les nouveaux fichiers python. Mettre le text_extraction.py ?
 Description globale du repository.
 
 Python version : 3.8.10 
@@ -49,13 +49,13 @@ This code is doing a dictionary of ID descriptors and EuroVoc descriptors to put
 -------------------------------------------
 AI_Act.xlsx is the Excel which contain all the statements from the Artificial Intelligence Act (HTML file) from Article 1 to Article 85.
 
-EuroVoc_2.xlsx is the Excel file which contain all statements from AI Act and GDPR Article and their predicted labels.
+EuroVoc_2.xlsx is the Excel file which contain all statements from the AI Act and GDPR Article and their predicted labels.
 
 EuroVoc_firstpart.xlsx is the Excel file which contain all highest similarity scores for each statement from the AI Act (compared with each statement from GDPR Article). That is the first part of the project, this file is the test file.
 
 eurovoc_export_en_modif.xlsx is the Excel file with EuroVoc descriptors and their ID (convert into int type).
 
-EuroVoc_tags_2.xlsx is the Excel file which contain all statements from both documents (AI Act/GDPR) and their predicted descriptors transformed from numbers to string by the **descriptors_conversion.py**.
+EuroVoc_tags_2.xlsx is the Excel file which contain all statements from both documents (AI Act/GDPR) and their predicted descriptors transformed from numbers to a string by the **descriptors_conversion.py**.
 
 similarity_whole_ai.xlsx is the Excel file which contain the highest similarity scores using by the python file : **similarity_score.py**
 

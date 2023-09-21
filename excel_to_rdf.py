@@ -1,62 +1,41 @@
-from rdflib import ConjunctiveGraph, URIRef, Literal, Namespace
-from rdflib.namespace import RDF, RDFS
+import rdflib
 import pandas as pd
 
-df = pd.read_excel(".\Excel\EuroVoc_firstpart.xlsx")
-g = ConjunctiveGraph()
-tair = Namespace('http://tair.adaptcentre.ie/ontologies/tair/')
-skos = Namespace('http://www.w3.org/2004/02/skos/core#')
-predicates = [
-    tair.decomposes,
-    skos.definition,
-    skos.altLabel,
-    #tair.constrainedBy
-]
+g = rdflib.ConjunctiveGraph()
+
+skos = rdflib.Namespace("http://www.w3.org/2004/02/skos/core#")
+rdf = rdflib.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+owl = rdflib.Namespace("http://www.w3.org/2002/07/owl#")
+rdfs = rdflib.Namespace("http://www.w3.org/2000/01/rdf-schema#")
+aia = rdflib.Namespace("aia:")
+gdpr = rdflib.Namespace("gdpr:")
+
+df = pd.read_excel(".\Excel\EuroVoc_firstpart2.xlsx")
 
 for index, row in df.iterrows():
-    subject = URIRef(row['Subject'])  
+    name = row['AIA_ID']
+    aia_ID = aia[name]
+    first_descriptors = row['Descriptors'].split(',')[0].strip(" []'\" ")
     unique_id = f"{row['AI Point']}"
-    ai_point = URIRef(unique_id)
-    collection = Literal(row['Collection'])
-    descriptors = Literal(row['Descriptors'])
-    #constrain = Literal(row['Constrained'])
-    objects = {
-        skos.definition:ai_point,
-        skos.altLabel:descriptors,
-        tair.decomposes:collection,
-     #   tair.constrainedBy:constrain
-    }
-    for predicate in predicates:
-        object_literal = Literal(objects[predicate])
-        
-        g.add((subject, predicate, object_literal))
-   
-g.serialize('testTriples.ttl', format='turtle')
-
-'''for index, row in df.iterrows():
-    unique_id = f"{row['AI Point']}"
-    unique_id = unique_id.replace(" ","_")
+    ai_point = rdflib.URIRef(unique_id)
+    g.add((aia_ID, rdf.type, skos.Concept))
+    g.add((aia_ID, rdfs.prefLabel, rdflib.Literal(first_descriptors, lang="en")))
+    g.add((aia_ID, skos.definition, rdflib.Literal(ai_point, lang="en")))
+    
+    subject2 = row['GDPR_ID']
+    gdpr_ID = gdpr[subject2]
     second_id = f"{row['GDPR Point']}"
-    second_id = second_id.replace(" ","_")
-    ai_point = URIRef(unique_id)
+    gdpr_point = rdflib.URIRef(second_id)
+    g.add((gdpr_ID, rdf.type, skos.Concept))
+    g.add((gdpr_ID, rdfs.prefLabel, rdflib.Literal(first_descriptors, lang="en")))
+    g.add((gdpr_ID, skos.definition, rdflib.Literal(gdpr_point, lang="en")))
     
-    gdpr_point = URIRef(second_id)
-    descriptors = Literal(row['Descriptors'])
+    g.add((aia_ID,rdf.narrow,gdpr_ID))
+    labels = [label.strip(" ['\"'] ") for label in row['Descriptors'].split(',')[1:]]
     
-    g.add((ai_point, RDF.type, tair['AIPoint']))
-    g.add((ai_point, RDFS.label, Literal('AI Point')))
-    g.add((ai_point, tair['hasGDPRPoint'], gdpr_point))
-    g.add((ai_point, tair['hasDescriptors'], descriptors))
-    
-    g.add((gdpr_point, RDF.type, tair['GDPRPoint']))
-    g.add((gdpr_point, RDFS.label, Literal('GDPR Point')))
-    g.add((gdpr_point, tair['hasAIPoint'], ai_point))
-    g.add((gdpr_point, tair['hasDescriptors'], descriptors))
-    
-    g.add((descriptors, RDF.type, tair['Descriptors']))
-    g.add((descriptors, RDFS.label, Literal('Descriptors')))
-    g.add((descriptors, tair['belongsToAIPoint'], ai_point))
-    g.add((descriptors, tair['belongsToGDPRPoint'], gdpr_point))
-    
-    g.add((ai_point,descriptors,gdpr_point))'''
+    for index2,label in enumerate(labels):
+        close_match = skos.closeMatch
+        g.add((aia_ID, rdfs.label, rdflib.Literal(label, lang="en")))
+        g.add((gdpr_ID, rdfs.label, rdflib.Literal(label, lang="en")))
 
+g.serialize("RDF_firstpart.ttl",format="turtle")

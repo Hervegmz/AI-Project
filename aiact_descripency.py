@@ -13,7 +13,7 @@ from loguru import logger
 
 import pandas as pd
 _ = load_dotenv(find_dotenv())
-os.environ["OPENAI_API_KEY"] =  "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" #dr mansoor key #
+os.environ["OPENAI_API_KEY"] =  "openai_key" #put your OPENAI key
 
 persist_directory ="aiact_excluding_footer_db"
 embedding = OpenAIEmbeddings()

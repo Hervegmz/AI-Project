@@ -15,28 +15,24 @@ Either you have to modify the AI Act HTML file with good tags for class, or you 
 
 The second file is used to do the same thing but with the GDPR HTML file.
 
------------
 competency_questions_evaluated.py
 -------------------------------------------------------------------------------------------------------------------
 
 This Python file is used to determine competency questions from GDPR statements using ChatGPT API.
 The aim is to find the gaps between GDPR and AI Act.
 
--------------------------------
 questions_gdpr_filter.py
 ----------------------------------------
 
 This file is used to filter competency questions, which means that if these questions are related to data sharing or not.
 Once we have all questions related to data sharing, we can proceed further with the next Python file.
 
--------------------------------------------
 questions_label_generation.py
 ----------------------------------------
 
 This file is used to generate labels of 3-4 words based on the competency questions that are related to data sharing.
 These labels will be used to make groups of questions.
 
--------------------------------------------
 aiact_descripency.py
 ----------------------------------------
 
@@ -46,7 +42,6 @@ The database for us will be the AI ACT.
 You can then query ChatGPT to ask if these competency questions are mentionned in the AI ACT.
 We will keep all "NO" answers from these results.
 
--------------------------------------------
 excel_to_rdf.py
 ----------------------------------------
 
@@ -55,7 +50,6 @@ With this file, you will generate a RDF file in Turtle format using data you hav
 This will create the node Concept with the labels and then other nodes called "Questions" that will be related to Concept nodes.
 In "Questions" nodes, you will have the definition which is the original statement from GDPR (the question is based on this statement) and then you will have the explanation which is the explanation of the gap between GDPR and AI Act on this question.
 
--------------------------------------------
 knowledge_graph.py
 ----------------------------------------
 

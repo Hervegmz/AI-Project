@@ -37,8 +37,11 @@ aiact_descripency.py
 ----------------------------------------
 
 After generating these labels, you have to know if these questions are mentionned in the AI ACT.
+
 With this file, you can query ChatGPT with your own database.
+
 The database for us will be the AI ACT.
+
 You can then query ChatGPT to ask if these competency questions are mentionned in the AI ACT.
 We will keep all "NO" answers from these results.
 
@@ -46,8 +49,11 @@ excel_to_rdf.py
 ----------------------------------------
 
 Once you have done all the previous steps, you can now create your RDF file which will be used for the knowledge graph.
+
 With this file, you will generate a RDF file in Turtle format using data you have stocked in the Excel file.
+
 This will create the node Concept with the labels and then other nodes called "Questions" that will be related to Concept nodes.
+
 In "Questions" nodes, you will have the definition which is the original statement from GDPR (the question is based on this statement) and then you will have the explanation which is the explanation of the gap between GDPR and AI Act on this question.
 
 knowledge_graph.py

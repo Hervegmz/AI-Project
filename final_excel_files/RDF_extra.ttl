@@ -1,0 +1,508 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<Administrative_Fines.> a skos:Concept ;
+    rdf:question <Is_compliance_with_previously_ordered_measures_taken_into_account_when_deciding_whether_to_impose_an_administrative_fine_under_the_GDPR?> .
+
+<Approving_BCRs> a skos:Concept ;
+    rdf:question <What_are_the_rules_relating_to_the_protection_of_natural_persons_with_regard_to_the_processing_of_personal_data_and_the_free_movement_of_personal_data?> .
+
+<Archiving_in_Public_Interest> a skos:Concept ;
+    rdf:question <What_approved_certification_mechanism_can_be_used_to_provide_appropriate_safeguards_for_the_transfer_of_personal_data_to_a_third_country,_without_requiring_any_specific_authorisation_from_a_supervisory_authority?> .
+
+<Article_30_Records> a skos:Concept ;
+    rdf:question <When_is_a_data_protection_impact_assessment_(DPIA)_not_required?> .
+
+<Binding_Corporate_Rules> a skos:Concept ;
+    rdf:question <What_should_the_controller_or_processor_document_in_the_records_referred_to_in_Article_30?>,
+        <Who_is_liable_for_the_damage_caused_by_processing_which_infringes_this_Regulation?> .
+
+<Board's_Responsibility> a skos:Concept ;
+    rdf:question <What_is_the_least_amount_of_personal_data_that_is_necessary_for_a_given_purpose?> .
+
+<Code_Compliance> a skos:Concept ;
+    rdf:question <Does_the_draft_code_of_conduct_or_an_amendment_or_extension_to_a_code_of_conduct_comply_with_this_Regulation?> .
+
+<Code_Validity_Rules> a skos:Concept ;
+    rdf:question <Under_what_conditions_may_the_competent_supervisory_authority_or_the_national_accreditation_body_revoke_the_accreditation_of_a_certification_body?> .
+
+<Consistent_GDPR_Application> a skos:Concept ;
+    rdf:question <How_can_supervisory_authorities_contribute_to_the_consistent_application_of_the_General_Data_Protection_Regulation_(GDPR)_throughout_the_Union?> .
+
+<Contract_Data_Processing> a skos:Concept ;
+    rdf:question <The_transfers_of_personal_data_to_a_recipient_in_a_third_country_or_an_international_organisation_pursuant_to_Articles_44_to_49;> .
+
+<Cooperation_between_SAs> a skos:Concept ;
+    rdf:question <How_should_the_lead_supervisory_authority_cooperate_with_the_other_supervisory_authorities_concerned?> .
+
+<Cross-Border_Data> a skos:Concept ;
+    rdf:question <What_decisions_adopted_by_the_Board_pursuant_to_Article_65_should_the_Chair_notify_to_the_lead_supervisory_authority_and_the_supervisory_authorities_concerned?>,
+        <What_is_the_Board's_responsibility_in_ensuring_the_consistent_application_of_the_Regulation?> .
+
+<DPIA_Exemptions> a skos:Concept ;
+    rdf:question <When_is_the_controller_required_to_communicate_the_personal_data_breach_to_the_data_subject?> .
+
+<Data_Breach_Exemption> a skos:Concept ;
+    rdf:question <Under_what_conditions_may_the_Commission_decide_that_an_approved_code_of_conduct_has_general_validity_within_the_Union?> .
+
+<Data_Breach_Notification> a skos:Concept ;
+    rdf:question <What_information_must_the_controller_provide_to_the_data_subject_at_the_time_when_personal_data_are_obtained?>,
+        <Where_appropriate,_the_controller_shall_seek_the_views_of_data_subjects_or_their_representatives_on_the_intended_processing?> .
+
+<Data_Consent_Purposes> a skos:Concept ;
+    rdf:question <Does_the_data_subject_have_explicit_consent_to_the_processing_of_their_personal_data_for_one_or_more_specified_purposes?> .
+
+<Data_Protection_Certification> a skos:Concept ;
+    rdf:question <How_can_data_protection_certification_mechanisms_be_established_to_demonstrate_the_existence_of_appropriate_safeguards_for_personal_data_transfers_to_third_countries_or_international_organisations?> .
+
+<Data_Protection_Impact> a skos:Concept ;
+    rdf:question <How_should_compliance_with_approved_codes_of_conduct_be_taken_into_account_in_assessing_the_impact_of_processing_operations_performed_by_the_relevant_controllers_or_processors,_in_particular_for_the_purposes_of_a_data_protection_impact_assessment?> .
+
+<Data_Protection_Obligations> a skos:Concept ;
+    rdf:question <What_are_the_requirements_for_controllers_or_processors_that_are_not_subject_to_the_GDPR_to_adhere_to_a_code_of_conduct_for_personal_data_transfers_to_third_countries_or_international_organisations?> .
+
+<Data_Protection_Policies> a skos:Concept ;
+    rdf:question <What_are_the_appropriate_safeguards_that_must_be_in_place_when_processing_personal_data_for_archiving_purposes_in_the_public_interest,_scientific_or_historical_research_purposes,_or_statistical_purposes?> .
+
+<Data_Protection_Safeguards> a skos:Concept ;
+    rdf:question <What_measures_has_the_controller_taken_or_proposed_to_take_to_address_the_personal_data_breach,_including,_where_appropriate,_measures_to_mitigate_its_possible_adverse_effects?> .
+
+<Data_Safeguards> a skos:Concept ;
+    rdf:question <What_are_the_appropriate_steps_that_the_Commission_and_supervisory_authorities_should_take_to_develop_international_cooperation_mechanisms_to_facilitate_the_effective_enforcement_of_legislation_for_the_protection_of_personal_data_in_relation_to_third_countries_and_international_organisations?> .
+
+<Data_Storage_Period> a skos:Concept ;
+    rdf:question <How_long_will_my_personal_data_be_stored,_or_if_that_is_not_possible,_what_are_the_criteria_used_to_determine_that_period?> .
+
+<Data_Subject_Request> a skos:Concept ;
+    rdf:question <What_measures_are_envisaged_to_address_the_risks,_including_safeguards,_security_measures,_and_mechanisms_to_ensure_the_protection_of_personal_data_and_to_demonstrate_compliance_with_this_Regulation,_taking_into_account_the_rights_and_legitimate_interests_of_data_subjects_and_other_persons_concerned?> .
+
+<Data_Subject_Rights> a skos:Concept ;
+    rdf:question <What_information_must_the_controller_provide_to_the_data_subject_when_collecting_personal_data_from_the_data_subject?> .
+
+<Data_Subject_Views> a skos:Concept ;
+    rdf:question <Where_processing_referred_to_in_paragraphs_2_and_3_serves_at_the_same_time_another_purpose_?> .
+
+<Data_Transfer_Safeguards> a skos:Concept ;
+    rdf:question <What_categories_of_processing_activities_must_a_processor_maintain_a_record_of?> .
+
+<Data_Transfers> a skos:Concept ;
+    rdf:question <What_are_the_data_protection_obligations_that_a_processor_must_impose_on_a_sub-processor?> .
+
+<Data_Transfers_Abroad> a skos:Concept ;
+    rdf:question <Under_what_condition_is_the_communication_to_the_data_subject_not_required_in_the_event_of_a_personal_data_breach?> .
+
+<Data_Transfers_Code> a skos:Concept ;
+    rdf:question <What_are_the_requirements_for_supervisory_authorities_to_approve_binding_corporate_rules?> .
+
+<Draft_Compliance_Check> a skos:Concept ;
+    rdf:question <Does_the_draft_code,_amendment_or_extension_comply_with_this_Regulation,_or,_in_the_situation_referred_to_in_paragraph_3,_provide_appropriate_safeguards?> .
+
+<Electronic_Exchange_of_Info> a skos:Concept ;
+    rdf:question <What_are_the_conditions_under_which_a_data_subject_has_the_right_to_receive_their_personal_data_in_a_structured,_commonly_used_and_machine-readable_format_and_transmit_it_to_another_controller?> .
+
+<Enforcement_of_Data_Protection> a skos:Concept ;
+    rdf:question <What_are_the_arrangements_for_the_exchange_of_information_by_electronic_means_between_supervisory_authorities,_and_between_supervisory_authorities_and_the_Board,_in_particular_the_standardised_format_referred_to_in_Article_64?> .
+
+<Ensuring_Compliance> a skos:Concept ;
+    rdf:question <How_should_the_controller_and_processor_ensure_that_employees_only_process_personal_data_on_instructions_from_the_controller?> .
+
+<Exercising_Data_Rights> a skos:Concept ;
+    rdf:question <How_can_the_right_to_obtain_a_copy_of_personal_data_be_exercised_without_adversely_affecting_the_rights_and_freedoms_of_others?> .
+
+<Fines_for_Non-Compliance> a skos:Concept ;
+    rdf:question <What_are_the_appropriate_data_protection_policies_that_a_controller_must_implement?> .
+
+<International_Data_Processing> a skos:Concept ;
+    rdf:question <Does_this_Regulation_apply_to_the_processing_of_personal_data_by_a_controller_not_established_in_the_Union,_but_in_a_place_where_Member_State_law_applies_by_virtue_of_public_international_law?> .
+
+<International_Data_Protection> a skos:Concept ;
+    rdf:question <Does_the_third_country_or_international_organization_have_international_commitments,_other_obligations,_or_participation_in_multilateral_or_regional_systems_in_relation_to_the_protection_of_personal_data?> .
+
+<Joint_Controllers'_Roles> a skos:Concept ;
+    rdf:question <How_should_joint_controllers_determine_their_respective_responsibilities_for_compliance_with_the_GDPR,_in_particular_as_regards_the_exercising_of_the_rights_of_the_data_subject_and_their_respective_duties_to_provide_the_information_referred_to_in_Articles_13_and_14?> .
+
+<Lawful_Processing> a skos:Concept ;
+    rdf:question <How_can_personal_data_relating_to_criminal_convictions_and_offences,_or_related_security_measures,_be_processed_lawfully?> .
+
+<Legal_Obligation> a skos:Concept ;
+    rdf:question <Is_the_certification_voluntary_and_available_via_a_transparent_process?> .
+
+<Liability_for_Damage> a skos:Concept ;
+    rdf:question <Within_what_period_of_time_must_the_lead_supervisory_authority_decide_whether_or_not_to_handle_a_case?> .
+
+<Maintaining_Records> a skos:Concept ;
+    rdf:question <What_information_must_be_included_in_a_communication_to_a_data_subject_about_a_personal_data_breach?> .
+
+<Member_State_Rules> a skos:Concept ;
+    rdf:question <What_should_be_the_format_and_procedures_for_the_exchange_of_information_between_controllers,_processors,_and_supervisory_authorities_for_binding_corporate_rules?> .
+
+<Minimum_Data_Needed> a skos:Concept ;
+    rdf:question <What_is_the_liability_of_multiple_controllers_or_processors?> .
+
+<Mitigating_Breach_Effects> a skos:Concept ;
+    rdf:question <What_rules_must_Member_States_notify_to_the_Commission_by_25_May_2018?> .
+
+<Multiple_Controller_Liability> a skos:Concept ;
+    rdf:question <What_is_the_necessity_and_proportionality_of_the_processing_operations_in_relation_to_the_purposes?> .
+
+<Notifying_Board_Decisions> a skos:Concept ;
+    rdf:question <What_information_and_access_to_its_processing_activities_does_a_controller_or_processor_that_submits_its_processing_to_the_certification_mechanism_need_to_provide_to_the_certification_body_or_competent_supervisory_authority?> .
+
+<Notifying_Breaches> a skos:Concept ;
+    rdf:question <How_to_establish_the_personal_data_breaches_and_determine_the_undue_delay_referred_to_in_Article_33(1)_and_(2)_and_for_the_particular_circumstances_in_which_a_controller_or_a_processor_is_required_to_notify_the_personal_data_breach?> .
+
+<Personal_Data_Collection> a skos:Concept ;
+    rdf:question <What_information_should_be_provided_to_the_public_and_to_data_subjects?> .
+
+<Personal_Data_Protection> a skos:Concept ;
+    rdf:question <What_are_the_standard_data_protection_clauses_that_can_be_used_to_provide_appropriate_safeguards_for_the_transfer_of_personal_data_to_a_third_country_without_requiring_any_specific_authorisation_from_a_supervisory_authority?> .
+
+<Privacy_Protection.> a skos:Concept ;
+    rdf:question <How_can_we_ensure_the_free_movement_of_personal_data_within_the_Union_while_also_protecting_the_privacy_of_individuals?> .
+
+<Processing_Certification> a skos:Concept ;
+    rdf:question <What_information_must_a_controller_maintain_in_their_record_of_processing_activities?> .
+
+<Processing_Proportionality> a skos:Concept ;
+    rdf:question <What_is_the_right_of_a_data_subject_to_lodge_a_complaint_with_a_supervisory_authority?> .
+
+<Processing_Purpose> a skos:Concept ;
+    rdf:question <Where_the_controller_or_the_processor_is_a_public_authority_or_body,_a_single_data_protection_officer_may_be_designated_for_several_such_authorities_or_bodies,_taking_account_of_their_organisational_structure_and_size.> .
+
+<Processing_Records> a skos:Concept ;
+    rdf:question <What_constitutes_cross-border_processing_of_personal_data?> .
+
+<Public_Data_Disclosure> a skos:Concept ;
+    rdf:question <What_is_cross-border_processing_of_personal_data?> .
+
+<Reconciling_Data_Privacy> a skos:Concept ;
+    rdf:question <How_can_public_authorities_reconcile_public_access_to_official_documents_with_the_right_to_the_protection_of_personal_data?> .
+
+<Revoking_Accreditation> a skos:Concept ;
+    rdf:question <Under_what_conditions_may_Union_or_Member_State_law_provide_for_derogations_from_the_rights_referred_to_in_Articles_15,_16,_18,_19,_20_and_21_of_the_GDPR_when_personal_data_are_processed_for_archiving_purposes_in_the_public_interest?> .
+
+<Right_to_Complain> a skos:Concept ;
+    rdf:question <What_is_the_scope_of_the_restrictions_introduced?> .
+
+<Right_to_Confirm> a skos:Concept ;
+    rdf:question <Does_the_data_subject_have_the_right_to_obtain_confirmation_as_to_whether_or_not_personal_data_concerning_him_or_her_are_being_processed,_and,_where_that_is_the_case,_access_to_the_personal_data_and_the_following_information?> .
+
+<Scope_of_Restrictions> a skos:Concept ;
+    rdf:question <What_kind_of_information_should_a_supervisory_authority_provide_to_a_data_subject_upon_request?> .
+
+<Scope_of_Union_Law> a skos:Concept ;
+    rdf:question <Does_the_GDPR_apply_to_the_processing_of_personal_data_in_the_course_of_an_activity_which_falls_outside_the_scope_of_Union_law?> .
+
+<Single_DPO_Designation> a skos:Concept ;
+    rdf:question <Which_supervisory_authority_is_competent_to_approve_binding_corporate_rules?> .
+
+<Structured_Data_Delivery> a skos:Concept ;
+    rdf:question <How_should_a_data_controller_provide_personal_data_to_a_data_subject_in_a_structured,_commonly_used_and_machine-readable_format?> .
+
+<Supervisory_Authority_Response> a skos:Concept ;
+    rdf:question <How_quickly_must_a_supervisory_authority_respond_to_a_request_from_another_supervisory_authority?> .
+
+<Supervisory_Cooperation> a skos:Concept ;
+    rdf:question <How_can_the_supervisory_authorities_cooperate_with_each_other_and,_where_relevant,_with_the_Commission,_to_ensure_the_consistent_application_of_this_Regulation_throughout_the_Union?> .
+
+<Transfer_Safeguards> a skos:Concept ;
+    rdf:question <What_are_the_administrative_fines_for_non-compliance_with_an_order_or_a_temporary_or_definitive_limitation_on_processing_or_the_suspension_of_data_flows_by_the_supervisory_authority_pursuant_to_Article_58(2)_or_failure_to_provide_access_in_violation_of_Article_58(1)?> .
+
+<Transmitting_Data> a skos:Concept ;
+    rdf:question <How_can_we_ensure_that_personal_data_can_be_transmitted_directly_from_one_controller_to_another,_where_technically_feasible?> .
+
+<Voluntary_Certification> a skos:Concept ;
+    rdf:question <Is_the_processing_of_personal_data_necessary_for_the_performance_of_a_contract_to_which_the_data_subject_is_party_or_in_order_to_take_steps_at_the_request_of_the_data_subject_prior_to_entering_into_a_contract?> .
+
+<Does_the_GDPR_apply_to_the_processing_of_personal_data_in_the_course_of_an_activity_which_falls_outside_the_scope_of_Union_law?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the scope of the GDPR, including its territorial scope and its application to non-EU controllers. This could lead to uncertainty and confusion for businesses, particularly those that operate internationally."@en ;
+    skos:definition "This Regulation does not apply to the processing of personal data:  (a) in the course of an activity which falls outside the scope of Union law;"@en .
+
+<Does_the_data_subject_have_explicit_consent_to_the_processing_of_their_personal_data_for_one_or_more_specified_purposes?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the lawfulness of processing personal data. This could make it difficult for businesses to ensure that they are processing personal data in a lawful manner."@en ;
+    skos:definition "2.   Paragraph 1 shall not apply if one of the following applies: the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject;"@en .
+
+<Does_the_data_subject_have_the_right_to_obtain_confirmation_as_to_whether_or_not_personal_data_concerning_him_or_her_are_being_processed,_and,_where_that_is_the_case,_access_to_the_personal_data_and_the_following_information?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific technical and organizational measures that providers of high-risk AI systems must implement to ensure that data subjects can effectively exercise their rights under the GDPR. This could make it difficult for data subjects to access their personal data, request portability of their personal data, or have their personal data erased."@en ;
+    skos:definition "1.   The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: the right to lodge a complaint with a supervisory authority;"@en .
+
+<Does_the_draft_code,_amendment_or_extension_comply_with_this_Regulation,_or,_in_the_situation_referred_to_in_paragraph_3,_provide_appropriate_safeguards?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address cross-border transfers of personal data in detail. This is a significant gap, as cross-border transfers of personal data are common in the AI sector. The GDPR contains some provisions on cross-border transfers of personal data, but these provisions are not specific to AI systems. This lack of clarity could make it difficult for businesses to comply with the AI Act and the GDPR when transferring personal data to third countries or international organizations."@en ;
+    skos:definition "8.   Where the opinion referred to in paragraph 7 confirms that the draft code, amendment or extension complies with this Regulation, or, in the situation referred to in paragraph 3, provides appropriate safeguards, the Board shall submit its opinion to the Commission."@en .
+
+<Does_the_draft_code_of_conduct_or_an_amendment_or_extension_to_a_code_of_conduct_comply_with_this_Regulation?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on how to take into account compliance with approved codes of conduct in assessing the impact of processing operations. This could make it difficult for businesses to determine whether they need to conduct a data protection impact assessment."@en ;
+    skos:definition "1.   The Board shall issue an opinion where a competent supervisory authority intends to adopt any of the measures below. To that end, the competent supervisory authority shall communicate the draft decision to the Board, when it: concerns a matter pursuant to Article 40(7) whether a draft code of conduct or an amendment or extension to a code of conduct complies with this Regulation;"@en .
+
+<Does_the_third_country_or_international_organization_have_international_commitments,_other_obligations,_or_participation_in_multilateral_or_regional_systems_in_relation_to_the_protection_of_personal_data?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address cross-border transfers of personal data in detail. This is a significant gap, as cross-border transfers of personal data are common in the AI sector. The GDPR contains some provisions on cross-border transfers of personal data, but these provisions are not specific to AI systems. This lack of clarity could make it difficult for businesses to comply with the AI Act and the GDPR when transferring personal data to third countries or international organizations."@en ;
+    skos:definition "2.   When assessing the adequacy of the level of protection, the Commission shall, in particular, take account of the following elements: the international commitments the third country or international organisation concerned has entered into, or other obligations arising from legally binding conventions or instruments as well as from its participation in multilateral or regional systems, in particular in relation to the protection of personal data."@en .
+
+<Does_this_Regulation_apply_to_the_processing_of_personal_data_by_a_controller_not_established_in_the_Union,_but_in_a_place_where_Member_State_law_applies_by_virtue_of_public_international_law?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the scope of the GDPR, including its territorial scope and its application to non-EU controllers. This could lead to uncertainty and confusion for businesses, particularly those that operate internationally."@en ;
+    skos:definition "3.   This Regulation applies to the processing of personal data by a controller not established in the Union, but in a place where Member State law applies by virtue of public international law."@en .
+
+<How_can_data_protection_certification_mechanisms_be_established_to_demonstrate_the_existence_of_appropriate_safeguards_for_personal_data_transfers_to_third_countries_or_international_organisations?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address cross-border transfers of personal data in detail. This is a significant gap, as cross-border transfers of personal data are common in the AI sector. The GDPR contains some provisions on cross-border transfers of personal data, but these provisions are not specific to AI systems. This lack of clarity could make it difficult for businesses to comply with the AI Act and the GDPR when transferring personal data to third countries or international organizations."@en ;
+    skos:definition "2.   In addition to adherence by controllers or processors subject to this Regulation, data protection certification mechanisms, seals or marks approved pursuant to paragraph 5 of this Article may be established for the purpose of demonstrating the existence of appropriate safeguards provided by controllers or processors that are not subject to this Regulation pursuant to Article 3 within the framework of personal data transfers to third countries or international organisations under the terms referred to in point (f) of Article 46(2). Such controllers or processors shall make binding and enforceable commitments, via contractual or other legally binding instruments, to apply those appropriate safeguards, including with regard to the rights of data subjects."@en .
+
+<How_can_personal_data_relating_to_criminal_convictions_and_offences,_or_related_security_measures,_be_processed_lawfully?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the processing of personal data relating to criminal convictions and offences, or related security measures. This could lead to uncertainty and confusion for businesses, particularly those that operate in the law enforcement or security sectors."@en ;
+    skos:definition "Processing of personal data relating to criminal convictions and offences or related security measures based on Article 6(1) shall be carried out only under the control of official authority or when the processing is authorised by Union or Member State law providing for appropriate safeguards for the rights and freedoms of data subjects. Any comprehensive register of criminal convictions shall be kept only under the control of official authority."@en .
+
+<How_can_public_authorities_reconcile_public_access_to_official_documents_with_the_right_to_the_protection_of_personal_data?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the reconciliation of public access to official documents and personal data protection. This is an important issue, as public authorities often hold large amounts of personal data in official documents. The AI Act could have provided guidance on how to balance the public interest in transparency and accountability with the individual's right to privacy."@en ;
+    skos:definition "Personal data in official documents held by a public authority or a public body or a private body for the performance of a task carried out in the public interest may be disclosed by the authority or body in accordance with Union or Member State law to which the public authority or body is subject in order to reconcile public access to official documents with the right to the protection of personal data pursuant to this Regulation."@en .
+
+<How_can_supervisory_authorities_contribute_to_the_consistent_application_of_the_General_Data_Protection_Regulation_(GDPR)_throughout_the_Union?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the role and responsibilities of supervisory authorities in relation to high-risk AI systems. This is another significant gap, as supervisory authorities play a vital role in enforcing the GDPR and other data protection laws. The lack of guidance on the role of supervisory authorities in relation to high-risk AI systems could make it difficult for supervisory authorities to effectively enforce the AI Act."@en ;
+    skos:definition "2.   Each supervisory authority shall contribute to the consistent application of this Regulation throughout the Union. For that purpose, the supervisory authorities shall cooperate with each other and the Commission in accordance with Chapter VII."@en .
+
+<How_can_the_right_to_obtain_a_copy_of_personal_data_be_exercised_without_adversely_affecting_the_rights_and_freedoms_of_others?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific information that providers of high-risk AI systems must provide to users about the way in which their personal data is processed. This could make it difficult for users to understand how their personal data is being used and to exercise their rights under the GDPR."@en ;
+    skos:definition "4.   The right to obtain a copy referred to in paragraph 3 shall not adversely affect the rights and freedoms of others."@en .
+
+<How_can_the_supervisory_authorities_cooperate_with_each_other_and,_where_relevant,_with_the_Commission,_to_ensure_the_consistent_application_of_this_Regulation_throughout_the_Union?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the role and responsibilities of supervisory authorities in relation to high-risk AI systems. This is another significant gap, as supervisory authorities play a vital role in enforcing the GDPR and other data protection laws. The lack of guidance on the role of supervisory authorities in relation to high-risk AI systems could make it difficult for supervisory authorities to effectively enforce the AI Act."@en ;
+    skos:definition "In order to contribute to the consistent application of this Regulation throughout the Union, the supervisory authorities shall cooperate with each other and, where relevant, with the Commission, through the consistency mechanism as set out in this Section."@en .
+
+<How_can_we_ensure_that_personal_data_can_be_transmitted_directly_from_one_controller_to_another,_where_technically_feasible?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific technical and organizational measures that providers of high-risk AI systems must implement to ensure that data subjects can effectively exercise their rights under the GDPR. This could make it difficult for data subjects to access their personal data, request portability of their personal data, or have their personal data erased."@en ;
+    skos:definition "2.   In exercising his or her right to data portability pursuant to paragraph 1, the data subject shall have the right to have the personal data transmitted directly from one controller to another, where technically feasible."@en .
+
+<How_can_we_ensure_the_free_movement_of_personal_data_within_the_Union_while_also_protecting_the_privacy_of_individuals?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the processing of personal data for specific purposes in detail, such as the transfer of personal data to third countries or the processing of personal data for archiving purposes in the public interest, scientific or historical research purposes, or statistical purposes. This could make it difficult for businesses to ensure that they are processing personal data in compliance with the GDPR."@en ;
+    skos:definition "3.   The free movement of personal data within the Union shall be neither restricted nor prohibited for reasons connected with the protection of natural persons with regard to the processing of personal data."@en .
+
+<How_long_will_my_personal_data_be_stored,_or_if_that_is_not_possible,_what_are_the_criteria_used_to_determine_that_period?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific criteria that providers of high-risk AI systems must use to determine how long to store personal data. This could make it difficult for users to understand how long their personal data will be retained and to request erasure of their personal data when it is no longer necessary."@en ;
+    skos:definition "2.   In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;"@en .
+
+<How_quickly_must_a_supervisory_authority_respond_to_a_request_from_another_supervisory_authority?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the role and responsibilities of supervisory authorities in relation to high-risk AI systems. This is another significant gap, as supervisory authorities play a vital role in enforcing the GDPR and other data protection laws. The lack of guidance on the role of supervisory authorities in relation to high-risk AI systems could make it difficult for supervisory authorities to effectively enforce the AI Act."@en ;
+    skos:definition "2.   Each supervisory authority shall take all appropriate measures required to reply to a request of another supervisory authority without undue delay and no later than one month after receiving the request. Such measures may include, in particular, the transmission of relevant information on the conduct of an investigation."@en .
+
+<How_should_a_data_controller_provide_personal_data_to_a_data_subject_in_a_structured,_commonly_used_and_machine-readable_format?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific technical and organizational measures that providers of high-risk AI systems must implement to ensure that data subjects can effectively exercise their rights under the GDPR. This could make it difficult for data subjects to access their personal data, request portability of their personal data, or have their personal data erased."@en ;
+    skos:definition "1.   The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: the processing is carried out by automated means."@en .
+
+<How_should_compliance_with_approved_codes_of_conduct_be_taken_into_account_in_assessing_the_impact_of_processing_operations_performed_by_the_relevant_controllers_or_processors,_in_particular_for_the_purposes_of_a_data_protection_impact_assessment?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on how to take into account compliance with approved codes of conduct in assessing the impact of processing operations. This could make it difficult for businesses to determine whether they need to conduct a data protection impact assessment."@en ;
+    skos:definition "8.   Compliance with approved codes of conduct referred to in Article 40 by the relevant controllers or processors shall be taken into due account in assessing the impact of the processing operations performed by such controllers or processors, in particular for the purposes of a data protection impact assessment."@en .
+
+<How_should_joint_controllers_determine_their_respective_responsibilities_for_compliance_with_the_GDPR,_in_particular_as_regards_the_exercising_of_the_rights_of_the_data_subject_and_their_respective_duties_to_provide_the_information_referred_to_in_Articles_13_and_14?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on how joint controllers should determine their respective responsibilities for compliance with the GDPR. This could lead to disputes between joint controllers and could make it difficult for data subjects to exercise their rights."@en ;
+    skos:definition "1.   Where two or more controllers jointly determine the purposes and means of processing, they shall be joint controllers. They shall in a transparent manner determine their respective responsibilities for compliance with the obligations under this Regulation, in particular as regards the exercising of the rights of the data subject and their respective duties to provide the information referred to in Articles 13 and 14, by means of an arrangement between them unless, and in so far as, the respective responsibilities of the controllers are determined by Union or Member State law to which the controllers are subject. The arrangement may designate a contact point for data subjects."@en .
+
+<How_should_the_controller_and_processor_ensure_that_employees_only_process_personal_data_on_instructions_from_the_controller?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on how controllers and processors should ensure that employees only process personal data on instructions from the controller. This could lead to data breaches and other compliance issues."@en ;
+    skos:definition "4.   The controller and processor shall take steps to ensure that any natural person acting under the authority of the controller or the processor who has access to personal data does not process them except on instructions from the controller, unless he or she is required to do so by Union or Member State law."@en .
+
+<How_should_the_lead_supervisory_authority_cooperate_with_the_other_supervisory_authorities_concerned?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the role and responsibilities of supervisory authorities in relation to high-risk AI systems. This is another significant gap, as supervisory authorities play a vital role in enforcing the GDPR and other data protection laws. The lack of guidance on the role of supervisory authorities in relation to high-risk AI systems could make it difficult for supervisory authorities to effectively enforce the AI Act."@en ;
+    skos:definition "1.   The lead supervisory authority shall cooperate with the other supervisory authorities concerned in accordance with this Article in an endeavour to reach consensus. The lead supervisory authority and the supervisory authorities concerned shall exchange all relevant information with each other."@en .
+
+<How_to_establish_the_personal_data_breaches_and_determine_the_undue_delay_referred_to_in_Article_33(1)_and_(2)_and_for_the_particular_circumstances_in_which_a_controller_or_a_processor_is_required_to_notify_the_personal_data_breach?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on how controllers should respond to personal data breaches. This could make it difficult for controllers to comply with the AI Act's requirements and could make it difficult for data subjects to protect their rights."@en ;
+    skos:definition "1.   The Board shall ensure the consistent application of this Regulation. To that end, the Board shall, on its own initiative or, where relevant, at the request of the Commission, in particular: issue guidelines, recommendations and best practices in accordance with point (e) of this paragraph for establishing the personal data breaches and determining the undue delay referred to in Article 33(1) and (2) and for the particular circumstances in which a controller or a processor is required to notify the personal data breach;"@en .
+
+<Is_compliance_with_previously_ordered_measures_taken_into_account_when_deciding_whether_to_impose_an_administrative_fine_under_the_GDPR?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address accountability and enforcement under the GDPR. This could make it difficult for supervisory authorities to enforce the AI Act and could lead to inconsistent enforcement across the EU."@en ;
+    skos:definition "2.   Administrative fines shall, depending on the circumstances of each individual case, be imposed in addition to, or instead of, measures referred to in points (a) to (h) and (j) of Article 58(2). When deciding whether to impose an administrative fine and deciding on the amount of the administrative fine in each individual case due regard shall be given to the following: where measures referred to in Article 58(2) have previously been ordered against the controller or processor concerned with regard to the same subject-matter, compliance with those measures;"@en .
+
+<Is_the_certification_voluntary_and_available_via_a_transparent_process?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address cross-border transfers of personal data in detail. This is a significant gap, as cross-border transfers of personal data are common in the AI sector. The GDPR contains some provisions on cross-border transfers of personal data, but these provisions are not specific to AI systems. This lack of clarity could make it difficult for businesses to comply with the AI Act and the GDPR when transferring personal data to third countries or international organizations."@en ;
+    skos:definition "3.   The certification shall be voluntary and available via a process that is transparent."@en .
+
+<Is_the_processing_of_personal_data_necessary_for_the_performance_of_a_contract_to_which_the_data_subject_is_party_or_in_order_to_take_steps_at_the_request_of_the_data_subject_prior_to_entering_into_a_contract?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the lawfulness of processing personal data. This could make it difficult for businesses to ensure that they are processing personal data in a lawful manner."@en ;
+    skos:definition "Processing shall be lawful only if and to the extent that at least one of the following applies: processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract;"@en .
+
+<The_transfers_of_personal_data_to_a_recipient_in_a_third_country_or_an_international_organisation_pursuant_to_Articles_44_to_49;> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the processing of personal data for specific purposes in detail, such as the transfer of personal data to third countries or the processing of personal data for archiving purposes in the public interest, scientific or historical research purposes, or statistical purposes. This could make it difficult for businesses to ensure that they are processing personal data in compliance with the GDPR."@en ;
+    skos:definition "5.   Infringements of the following provisions shall, in accordance with paragraph 2, be subject to administrative fines up to 20 000 000 EUR, or in the case of an undertaking, up to 4 % of the total worldwide annual turnover of the preceding financial year, whichever is higher: the transfers of personal data to a recipient in a third country or an international organisation pursuant to Articles 44 to 49;"@en .
+
+<Under_what_condition_is_the_communication_to_the_data_subject_not_required_in_the_event_of_a_personal_data_breach?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on how controllers should respond to personal data breaches. This could make it difficult for controllers to comply with the AI Act's requirements and could make it difficult for data subjects to protect their rights."@en ;
+    skos:definition "3.   The communication to the data subject referred to in paragraph 1 shall not be required if any of the following conditions are met: the controller has implemented appropriate technical and organisational protection measures, and those measures were applied to the personal data affected by the personal data breach, in particular those that render the personal data unintelligible to any person who is not authorised to access it, such as encryption;"@en .
+
+<Under_what_conditions_may_Union_or_Member_State_law_provide_for_derogations_from_the_rights_referred_to_in_Articles_15,_16,_18,_19,_20_and_21_of_the_GDPR_when_personal_data_are_processed_for_archiving_purposes_in_the_public_interest?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific technical and organizational measures that providers of high-risk AI systems must implement to ensure that data subjects can effectively exercise their rights under the GDPR. This could make it difficult for data subjects to access their personal data, request portability of their personal data, or have their personal data erased."@en ;
+    skos:definition "3.   Where personal data are processed for archiving purposes in the public interest, Union or Member State law may provide for derogations from the rights referred to in Articles 15, 16, 18, 19, 20 and 21 subject to the conditions and safeguards referred to in paragraph 1 of this Article in so far as such rights are likely to render impossible or seriously impair the achievement of the specific purposes, and such derogations are necessary for the fulfilment of those purposes."@en .
+
+<Under_what_conditions_may_the_Commission_decide_that_an_approved_code_of_conduct_has_general_validity_within_the_Union?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address cross-border transfers of personal data in detail. This is a significant gap, as cross-border transfers of personal data are common in the AI sector. The GDPR contains some provisions on cross-border transfers of personal data, but these provisions are not specific to AI systems. This lack of clarity could make it difficult for businesses to comply with the AI Act and the GDPR when transferring personal data to third countries or international organizations."@en ;
+    skos:definition "9.   The Commission may, by way of implementing acts, decide that the approved code of conduct, amendment or extension submitted to it pursuant to paragraph 8 of this Article have general validity within the Union. Those implementing acts shall be adopted in accordance with the examination procedure set out in Article 93(2)."@en .
+
+<Under_what_conditions_may_the_competent_supervisory_authority_or_the_national_accreditation_body_revoke_the_accreditation_of_a_certification_body?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address cross-border transfers of personal data in detail. This is a significant gap, as cross-border transfers of personal data are common in the AI sector. The GDPR contains some provisions on cross-border transfers of personal data, but these provisions are not specific to AI systems. This lack of clarity could make it difficult for businesses to comply with the AI Act and the GDPR when transferring personal data to third countries or international organizations."@en ;
+    skos:definition "7.   Without prejudice to Chapter VIII, the competent supervisory authority or the national accreditation body shall revoke an accreditation of a certification body pursuant to paragraph 1 of this Article where the conditions for the accreditation are not, or are no longer, met or where actions taken by a certification body infringe this Regulation."@en .
+
+<What_approved_certification_mechanism_can_be_used_to_provide_appropriate_safeguards_for_the_transfer_of_personal_data_to_a_third_country,_without_requiring_any_specific_authorisation_from_a_supervisory_authority?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the transfer of personal data to third countries. This is a significant gap, as the AI Act is designed to regulate high-risk AI systems, which are often used by businesses that operate internationally. The lack of guidance on the transfer of personal data to third countries could make it difficult for businesses to comply with both the AI Act and the GDPR"@en ;
+    skos:definition "2.   The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by: an approved certification mechanism pursuant to Article 42 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights."@en .
+
+<What_are_the_administrative_fines_for_non-compliance_with_an_order_or_a_temporary_or_definitive_limitation_on_processing_or_the_suspension_of_data_flows_by_the_supervisory_authority_pursuant_to_Article_58(2)_or_failure_to_provide_access_in_violation_of_Article_58(1)?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address accountability and enforcement under the GDPR. This could make it difficult for supervisory authorities to enforce the AI Act and could lead to inconsistent enforcement across the EU."@en ;
+    skos:definition "5.   Infringements of the following provisions shall, in accordance with paragraph 2, be subject to administrative fines up to 20 000 000 EUR, or in the case of an undertaking, up to 4 % of the total worldwide annual turnover of the preceding financial year, whichever is higher: non-compliance with an order or a temporary or definitive limitation on processing or the suspension of data flows by the supervisory authority pursuant to Article 58(2) or failure to provide access in violation of Article 58(1)."@en .
+
+<What_are_the_appropriate_data_protection_policies_that_a_controller_must_implement?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on the data protection policies and procedures that controllers must implement. This could make it difficult for businesses to ensure that they are complying with the AI Act's requirements."@en ;
+    skos:definition "2.   Where proportionate in relation to processing activities, the measures referred to in paragraph 1 shall include the implementation of appropriate data protection policies by the controller."@en .
+
+<What_are_the_appropriate_safeguards_that_must_be_in_place_when_processing_personal_data_for_archiving_purposes_in_the_public_interest,_scientific_or_historical_research_purposes,_or_statistical_purposes?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the processing of personal data for specific purposes in detail, such as the transfer of personal data to third countries or the processing of personal data for archiving purposes in the public interest, scientific or historical research purposes, or statistical purposes. This could make it difficult for businesses to ensure that they are processing personal data in compliance with the GDPR."@en ;
+    skos:definition "1.   Processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, shall be subject to appropriate safeguards, in accordance with this Regulation, for the rights and freedoms of the data subject. Those safeguards shall ensure that technical and organisational measures are in place in particular in order to ensure respect for the principle of data minimisation. Those measures may include pseudonymisation provided that those purposes can be fulfilled in that manner. Where those purposes can be fulfilled by further processing which does not permit or no longer permits the identification of data subjects, those purposes shall be fulfilled in that manner."@en .
+
+<What_are_the_appropriate_steps_that_the_Commission_and_supervisory_authorities_should_take_to_develop_international_cooperation_mechanisms_to_facilitate_the_effective_enforcement_of_legislation_for_the_protection_of_personal_data_in_relation_to_third_countries_and_international_organisations?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the role and responsibilities of supervisory authorities in relation to high-risk AI systems. This is another significant gap, as supervisory authorities play a vital role in enforcing the GDPR and other data protection laws. The lack of guidance on the role of supervisory authorities in relation to high-risk AI systems could make it difficult for supervisory authorities to effectively enforce the AI Act."@en ;
+    skos:definition "In relation to third countries and international organisations, the Commission and supervisory authorities shall take appropriate steps to: develop international cooperation mechanisms to facilitate the effective enforcement of legislation for the protection of personal data;"@en .
+
+<What_are_the_arrangements_for_the_exchange_of_information_by_electronic_means_between_supervisory_authorities,_and_between_supervisory_authorities_and_the_Board,_in_particular_the_standardised_format_referred_to_in_Article_64?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on the arrangements for the exchange of information between supervisory authorities and between controllers, processors, and supervisory authorities. This could lead to delays and inefficiencies in the enforcement of the AI Act."@en ;
+    skos:definition "The Commission may adopt implementing acts of general scope in order to specify the arrangements for the exchange of information by electronic means between supervisory authorities, and between supervisory authorities and the Board, in particular the standardised format referred to in Article 64. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 93(2)."@en .
+
+<What_are_the_conditions_under_which_a_data_subject_has_the_right_to_receive_their_personal_data_in_a_structured,_commonly_used_and_machine-readable_format_and_transmit_it_to_another_controller?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific technical and organizational measures that providers of high-risk AI systems must implement to ensure that data subjects can effectively exercise their rights under the GDPR. This could make it difficult for data subjects to access their personal data, request portability of their personal data, or have their personal data erased."@en ;
+    skos:definition "1.   The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: the processing is based on consent pursuant to point (a) of Article 6(1) or point (a) of Article 9(2) or on a contract pursuant to point (b) of Article 6(1); and"@en .
+
+<What_are_the_data_protection_obligations_that_a_processor_must_impose_on_a_sub-processor?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on the data protection obligations that a processor must impose on a sub-processor. This could make it difficult for processors to ensure that sub-processors are complying with the AI Act's requirements."@en ;
+    skos:definition "4.   Where a processor engages another processor for carrying out specific processing activities on behalf of the controller, the same data protection obligations as set out in the contract or other legal act between the controller and the processor as referred to in paragraph 3 shall be imposed on that other processor by way of a contract or other legal act under Union or Member State law, in particular providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that the processing will meet the requirements of this Regulation. Where that other processor fails to fulfil its data protection obligations, the initial processor shall remain fully liable to the controller for the performance of that other processor's obligations."@en .
+
+<What_are_the_requirements_for_controllers_or_processors_that_are_not_subject_to_the_GDPR_to_adhere_to_a_code_of_conduct_for_personal_data_transfers_to_third_countries_or_international_organisations?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address cross-border transfers of personal data in detail. This is a significant gap, as cross-border transfers of personal data are common in the AI sector. The GDPR contains some provisions on cross-border transfers of personal data, but these provisions are not specific to AI systems. This lack of clarity could make it difficult for businesses to comply with the AI Act and the GDPR when transferring personal data to third countries or international organizations."@en ;
+    skos:definition "3.   In addition to adherence by controllers or processors subject to this Regulation, codes of conduct approved pursuant to paragraph 5 of this Article and having general validity pursuant to paragraph 9 of this Article may also be adhered to by controllers or processors that are not subject to this Regulation pursuant to Article 3 in order to provide appropriate safeguards within the framework of personal data transfers to third countries or international organisations under the terms referred to in point (e) of Article 46(2). Such controllers or processors shall make binding and enforceable commitments, via contractual or other legally binding instruments, to apply those appropriate safeguards including with regard to the rights of data subjects."@en .
+
+<What_are_the_requirements_for_supervisory_authorities_to_approve_binding_corporate_rules?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the role and responsibilities of supervisory authorities in relation to high-risk AI systems. This is another significant gap, as supervisory authorities play a vital role in enforcing the GDPR and other data protection laws. The lack of guidance on the role of supervisory authorities in relation to high-risk AI systems could make it difficult for supervisory authorities to effectively enforce the AI Act."@en ;
+    skos:definition "1.   Without prejudice to other tasks set out under this Regulation, each supervisory authority shall on its territory: approve binding corporate rules pursuant to Article 47;"@en .
+
+<What_are_the_rules_relating_to_the_protection_of_natural_persons_with_regard_to_the_processing_of_personal_data_and_the_free_movement_of_personal_data?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the scope of the GDPR, including its territorial scope and its application to non-EU controllers. This could lead to uncertainty and confusion for businesses, particularly those that operate internationally."@en ;
+    skos:definition "1.   This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data."@en .
+
+<What_are_the_standard_data_protection_clauses_that_can_be_used_to_provide_appropriate_safeguards_for_the_transfer_of_personal_data_to_a_third_country_without_requiring_any_specific_authorisation_from_a_supervisory_authority?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the transfer of personal data to third countries. This is a significant gap, as the AI Act is designed to regulate high-risk AI systems, which are often used by businesses that operate internationally. The lack of guidance on the transfer of personal data to third countries could make it difficult for businesses to comply with both the AI Act and the GDPR"@en ;
+    skos:definition "2.   The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by: standard data protection clauses adopted by a supervisory authority and approved by the Commission pursuant to the examination procedure referred to in Article 93(2);"@en .
+
+<What_categories_of_processing_activities_must_a_processor_maintain_a_record_of?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on the information that controllers and processors must maintain in their records. This could make it difficult for controllers and processors to comply with the AI Act's requirements and could make it difficult for supervisory authorities to conduct audits."@en ;
+    skos:definition "2.   Each processor and, where applicable, the processor's representative shall maintain a record of all categories of processing activities carried out on behalf of a controller, containing: the categories of processing carried out on behalf of each controller;"@en .
+
+<What_constitutes_cross-border_processing_of_personal_data?> a rdf:Property ;
+    rdf:explanation "The AI Act does not define cross-border processing of personal data. This could make it difficult for businesses to determine whether they are subject to the GDPR's requirements for cross-border processing."@en ;
+    skos:definition "‘cross-border processing’ means either: processing of personal data which takes place in the context of the activities of a single establishment of a controller or processor in the Union but which substantially affects or is likely to substantially affect data subjects in more than one Member State."@en .
+
+<What_decisions_adopted_by_the_Board_pursuant_to_Article_65_should_the_Chair_notify_to_the_lead_supervisory_authority_and_the_supervisory_authorities_concerned?> a rdf:Property ;
+    rdf:explanation "The AI Act does not clearly define the Board's role in ensuring the consistent application of the Regulation. This could lead to uncertainty and inconsistency in the application of the AI Act across the EU."@en ;
+    skos:definition "1.   The Chair shall have the following tasks: to notify decisions adopted by the Board pursuant to Article 65 to the lead supervisory authority and the supervisory authorities concerned;"@en .
+
+<What_information_and_access_to_its_processing_activities_does_a_controller_or_processor_that_submits_its_processing_to_the_certification_mechanism_need_to_provide_to_the_certification_body_or_competent_supervisory_authority?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address cross-border transfers of personal data in detail. This is a significant gap, as cross-border transfers of personal data are common in the AI sector. The GDPR contains some provisions on cross-border transfers of personal data, but these provisions are not specific to AI systems. This lack of clarity could make it difficult for businesses to comply with the AI Act and the GDPR when transferring personal data to third countries or international organizations."@en ;
+    skos:definition "6.   The controller or processor which submits its processing to the certification mechanism shall provide the certification body referred to in Article 43, or where applicable, the competent supervisory authority, with all information and access to its processing activities which are necessary to conduct the certification procedure."@en .
+
+<What_information_must_a_controller_maintain_in_their_record_of_processing_activities?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on the information that controllers and processors must maintain in their records. This could make it difficult for controllers and processors to comply with the AI Act's requirements and could make it difficult for supervisory authorities to conduct audits."@en ;
+    skos:definition "1.   Each controller and, where applicable, the controller's representative, shall maintain a record of processing activities under its responsibility. That record shall contain all of the following information: where possible, a general description of the technical and organisational security measures referred to in Article 32(1)."@en .
+
+<What_information_must_be_included_in_a_communication_to_a_data_subject_about_a_personal_data_breach?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on how controllers should respond to personal data breaches. This could make it difficult for controllers to comply with the AI Act's requirements and could make it difficult for data subjects to protect their rights."@en ;
+    skos:definition "2.   The communication to the data subject referred to in paragraph 1 of this Article shall describe in clear and plain language the nature of the personal data breach and contain at least the information and measures referred to in points (b), (c) and (d) of Article 33(3)."@en .
+
+<What_information_must_the_controller_provide_to_the_data_subject_at_the_time_when_personal_data_are_obtained?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific information that providers of high-risk AI systems must provide to users about the way in which their personal data is processed. This could make it difficult for users to understand how their personal data is being used and to exercise their rights under the GDPR."@en ;
+    skos:definition "1.   Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: where applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available."@en .
+
+<What_information_must_the_controller_provide_to_the_data_subject_when_collecting_personal_data_from_the_data_subject?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific information that providers of high-risk AI systems must provide to users about the way in which their personal data is processed. This could make it difficult for users to understand how their personal data is being used and to exercise their rights under the GDPR."@en ;
+    skos:definition "1.   Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: the identity and the contact details of the controller and, where applicable, of the controller's representative;"@en .
+
+<What_information_should_be_provided_to_the_public_and_to_data_subjects?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific information that providers of high-risk AI systems must provide to users about the way in which their personal data is processed. This could make it difficult for users to understand how their personal data is being used and to exercise their rights under the GDPR."@en ;
+    skos:definition "2.   Associations and other bodies representing categories of controllers or processors may prepare codes of conduct, or amend or extend such codes, for the purpose of specifying the application of this Regulation, such as with regard to: the information provided to the public and to data subjects;"@en .
+
+<What_is_cross-border_processing_of_personal_data?> a rdf:Property ;
+    rdf:explanation "The AI Act does not define cross-border processing of personal data. This could make it difficult for businesses to determine whether they are subject to the GDPR's requirements for cross-border processing."@en ;
+    skos:definition "‘cross-border processing’ means either: (a) processing of personal data which takes place in the context of the activities of establishments in more than one Member State of a controller or processor in the Union where the controller or processor is established in more than one Member State; or"@en .
+
+<What_is_the_Board's_responsibility_in_ensuring_the_consistent_application_of_the_Regulation?> a rdf:Property ;
+    rdf:explanation "The AI Act does not clearly define the Board's role in ensuring the consistent application of the Regulation. This could lead to uncertainty and inconsistency in the application of the AI Act across the EU."@en ;
+    skos:definition "1.   The Board shall ensure the consistent application of this Regulation. To that end, the Board shall, on its own initiative or, where relevant, at the request of the Commission, in particular: review the practical application of the guidelines, recommendations and best practices referred to in points (e) and (f);"@en .
+
+<What_is_the_least_amount_of_personal_data_that_is_necessary_for_a_given_purpose?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the principle of data minimisation, which is a core principle of the GDPR. This could make it difficult for businesses to ensure that they are only processing the personal data that is necessary for the purposes for which it was collected."@en ;
+    skos:definition "1.   Personal data shall be: adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (‘data minimisation’);"@en .
+
+<What_is_the_liability_of_multiple_controllers_or_processors?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific technical and organizational measures that providers of high-risk AI systems must implement to ensure that data subjects can effectively exercise their rights under the GDPR. This could make it difficult for data subjects to access their personal data, request portability of their personal data, or have their personal data erased."@en ;
+    skos:definition "4.   Where more than one controller or processor, or both a controller and a processor, are involved in the same processing and where they are, under paragraphs 2 and 3, responsible for any damage caused by processing, each controller or processor shall be held liable for the entire damage in order to ensure effective compensation of the data subject."@en .
+
+<What_is_the_necessity_and_proportionality_of_the_processing_operations_in_relation_to_the_purposes?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on how to assess the necessity and proportionality of processing operations. This could make it difficult for businesses to ensure that they are processing personal data in a necessary and proportionate manner."@en ;
+    skos:definition "7.   The assessment shall contain at least: an assessment of the necessity and proportionality of the processing operations in relation to the purposes;"@en .
+
+<What_is_the_right_of_a_data_subject_to_lodge_a_complaint_with_a_supervisory_authority?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific technical and organizational measures that providers of high-risk AI systems must implement to ensure that data subjects can effectively exercise their rights under the GDPR. This could make it difficult for data subjects to access their personal data, request portability of their personal data, or have their personal data erased."@en ;
+    skos:definition "1.   Without prejudice to any other administrative or judicial remedy, every data subject shall have the right to lodge a complaint with a supervisory authority, in particular in the Member State of his or her habitual residence, place of work or place of the alleged infringement if the data subject considers that the processing of personal data relating to him or her infringes this Regulation."@en .
+
+<What_is_the_scope_of_the_restrictions_introduced?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly define the scope of the restrictions that it introduces. This could lead to uncertainty and confusion for businesses, as it will be difficult to determine which AI systems are subject to the restrictions and which are not."@en ;
+    skos:definition "2.   In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to:   the scope of the restrictions introduced;"@en .
+
+<What_kind_of_information_should_a_supervisory_authority_provide_to_a_data_subject_upon_request?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the role and responsibilities of supervisory authorities in relation to high-risk AI systems. This is another significant gap, as supervisory authorities play a vital role in enforcing the GDPR and other data protection laws. The lack of guidance on the role of supervisory authorities in relation to high-risk AI systems could make it difficult for supervisory authorities to effectively enforce the AI Act."@en ;
+    skos:definition "1.   Without prejudice to other tasks set out under this Regulation, each supervisory authority shall on its territory: upon request, provide information to any data subject concerning the exercise of their rights under this Regulation and, if appropriate, cooperate with the supervisory authorities in other Member States to that end;"@en .
+
+<What_measures_are_envisaged_to_address_the_risks,_including_safeguards,_security_measures,_and_mechanisms_to_ensure_the_protection_of_personal_data_and_to_demonstrate_compliance_with_this_Regulation,_taking_into_account_the_rights_and_legitimate_interests_of_data_subjects_and_other_persons_concerned?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on the risk management and compliance measures that businesses must implement. This could make it difficult for businesses to ensure that they are complying with the AI Act and the GDPR."@en ;
+    skos:definition "7.   The assessment shall contain at least: the measures envisaged to address the risks, including safeguards, security measures and mechanisms to ensure the protection of personal data and to demonstrate compliance with this Regulation taking into account the rights and legitimate interests of data subjects and other persons concerned."@en .
+
+<What_measures_has_the_controller_taken_or_proposed_to_take_to_address_the_personal_data_breach,_including,_where_appropriate,_measures_to_mitigate_its_possible_adverse_effects?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on how controllers should respond to personal data breaches. This could make it difficult for controllers to comply with the AI Act's requirements and could make it difficult for data subjects to protect their rights."@en ;
+    skos:definition "3.   The notification referred to in paragraph 1 shall at least: describe the measures taken or proposed to be taken by the controller to address the personal data breach, including, where appropriate, measures to mitigate its possible adverse effects."@en .
+
+<What_rules_must_Member_States_notify_to_the_Commission_by_25_May_2018?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide any guidance on what rules Member States must notify to the Commission by 25 May 2018. This could lead to uncertainty and confusion for Member States."@en ;
+    skos:definition "2.   Each Member State shall notify to the Commission the rules adopted pursuant to paragraph 1, by 25 May 2018 and, without delay, any subsequent amendment affecting them."@en .
+
+<What_should_be_the_format_and_procedures_for_the_exchange_of_information_between_controllers,_processors,_and_supervisory_authorities_for_binding_corporate_rules?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on the arrangements for the exchange of information between supervisory authorities and between controllers, processors, and supervisory authorities. This could lead to delays and inefficiencies in the enforcement of the AI Act."@en ;
+    skos:definition "1.   The Board shall ensure the consistent application of this Regulation. To that end, the Board shall, on its own initiative or, where relevant, at the request of the Commission, in particular: advise the Commission on the format and procedures for the exchange of information between controllers, processors and supervisory authorities for binding corporate rules;"@en .
+
+<What_should_the_controller_or_processor_document_in_the_records_referred_to_in_Article_30?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the role and responsibilities of supervisory authorities in relation to high-risk AI systems. This is another significant gap, as supervisory authorities play a vital role in enforcing the GDPR and other data protection laws. The lack of guidance on the role of supervisory authorities in relation to high-risk AI systems could make it difficult for supervisory authorities to effectively enforce the AI Act."@en ;
+    skos:definition "6.   The controller or processor shall document the assessment as well as the suitable safeguards referred to in the second subparagraph of paragraph 1 of this Article in the records referred to in Article 30."@en .
+
+<When_is_a_data_protection_impact_assessment_(DPIA)_not_required?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on when a DPIA is not required. This could make it difficult for businesses to determine whether they need to conduct a DPIA."@en ;
+    skos:definition "10.   Where processing pursuant to point (c) or (e) of Article 6(1) has a legal basis in Union law or in the law of the Member State to which the controller is subject, that law regulates the specific processing operation or set of operations in question, and a data protection impact assessment has already been carried out as part of a general impact assessment in the context of the adoption of that legal basis, paragraphs 1 to 7 shall not apply unless Member States deem it to be necessary to carry out such an assessment prior to processing activities."@en .
+
+<When_is_the_controller_required_to_communicate_the_personal_data_breach_to_the_data_subject?> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on how controllers should respond to personal data breaches. This could make it difficult for controllers to comply with the AI Act's requirements and could make it difficult for data subjects to protect their rights."@en ;
+    skos:definition "1.   When the personal data breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall communicate the personal data breach to the data subject without undue delay."@en .
+
+<Where_appropriate,_the_controller_shall_seek_the_views_of_data_subjects_or_their_representatives_on_the_intended_processing?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific technical and organizational measures that providers of high-risk AI systems must implement to ensure that data subjects can effectively exercise their rights under the GDPR. This could make it difficult for data subjects to access their personal data, request portability of their personal data, or have their personal data erased."@en ;
+    skos:definition "9.   Where appropriate, the controller shall seek the views of data subjects or their representatives on the intended processing, without prejudice to the protection of commercial or public interests or the security of processing operations."@en .
+
+<Where_processing_referred_to_in_paragraphs_2_and_3_serves_at_the_same_time_another_purpose_?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific technical and organizational measures that providers of high-risk AI systems must implement to ensure that data subjects can effectively exercise their rights under the GDPR. This could make it difficult for data subjects to access their personal data, request portability of their personal data, or have their personal data erased."@en ;
+    skos:definition "4.   Where processing referred to in paragraphs 2 and 3 serves at the same time another purpose, the derogations shall apply only to processing for the purposes referred to in those paragraphs."@en .
+
+<Where_the_controller_or_the_processor_is_a_public_authority_or_body,_a_single_data_protection_officer_may_be_designated_for_several_such_authorities_or_bodies,_taking_account_of_their_organisational_structure_and_size.> a rdf:Property ;
+    rdf:explanation "The AI Act does not provide specific guidance on the requirements for DPOs in public authorities or bodies. This could make it difficult for public authorities or bodies to ensure that they are complying with the AI Act and the GDPR."@en ;
+    skos:definition "3.   Where the controller or the processor is a public authority or body, a single data protection officer may be designated for several such authorities or bodies, taking account of their organisational structure and size."@en .
+
+<Which_supervisory_authority_is_competent_to_approve_binding_corporate_rules?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the role and responsibilities of supervisory authorities in relation to high-risk AI systems. This is another significant gap, as supervisory authorities play a vital role in enforcing the GDPR and other data protection laws. The lack of guidance on the role of supervisory authorities in relation to high-risk AI systems could make it difficult for supervisory authorities to effectively enforce the AI Act."@en ;
+    skos:definition "1.   The competent supervisory authority shall approve binding corporate rules in accordance with the consistency mechanism set out in Article 63, provided that they: are legally binding and apply to and are enforced by every member concerned of the group of undertakings, or group of enterprises engaged in a joint economic activity, including their employees;"@en .
+
+<Who_is_liable_for_the_damage_caused_by_processing_which_infringes_this_Regulation?> a rdf:Property ;
+    rdf:explanation "The AI Act does not explicitly address the specific technical and organizational measures that providers of high-risk AI systems must implement to ensure that data subjects can effectively exercise their rights under the GDPR. This could make it difficult for data subjects to access their personal data, request portability of their personal data, or have their personal data erased."@en ;
+    skos:definition "2.   Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. A processor shall be liable for the damage caused by processing only where it has not complied with obligations of this Regulation specifically directed to processors or where it has acted outside or contrary to lawful instructions of the controller."@en .
+
+<Within_what_period_of_time_must_the_lead_supervisory_authority_decide_whether_or_not_to_handle_a_case?> a rdf:Property ;
+    rdf:explanation "The AI Act does not address the role and responsibilities of supervisory authorities in relation to high-risk AI systems. This is another significant gap, as supervisory authorities play a vital role in enforcing the GDPR and other data protection laws. The lack of guidance on the role of supervisory authorities in relation to high-risk AI systems could make it difficult for supervisory authorities to effectively enforce the AI Act."@en ;
+    skos:definition "3.   In the cases referred to in paragraph 2 of this Article, the supervisory authority shall inform the lead supervisory authority without delay on that matter. Within a period of three weeks after being informed the lead supervisory authority shall decide whether or not it will handle the case in accordance with the procedure provided in Article 60, taking into account whether or not there is an establishment of the controller or processor in the Member State of which the supervisory authority informed it."@en .
+

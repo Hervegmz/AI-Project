@@ -1,62 +1,74 @@
 # AI-Project
 
-Modif à faire :
---
-ajouter les nouveaux fichiers python. Mettre le text_extraction.py ?
-Description globale du repository.
+The goal of this project is to find the gaps between AI Act and other standards which are related to data sharing in Health Data Spaces in EU.
+Using AI Act and GDPR, we will use ChatGPT to find these gaps.
+We will then create a RDF file to visualize a knowledge graph.
 
 Python version : 3.8.10 
 
 ----------------
-similarity_score.py
+ai_act_extracter.py & gdpr_extracter.py
 ------------------------------------------------------------------------------------------------------------------
 
-The library semantic-text-similarity was used for this file : https://github.com/Coding-bot007/Semantic-text-similarity
+This file is used to extract all statements from AI Act based on a HTML file modified.
+Either you have to modify the AI Act HTML file with good tags for class, or you have to modify the python code to use it on your own HTML file.
 
-The goal with the similarity_score.py is to measure the semantic text similarity between two sentences :
-- it measure the meaning of the sentence but also the semantic word by word.
-
-In this file, the code is comparing two sentences :
-- AI point which is the statement from AI Act you want to compare with all statements from the GDPR Article.
-As it is comparing with a lot of statements, it might take a while (15-20 minutes).
-
-There is also a condition which will keep the highest similarity score and add in the similary_whole_ai.xlsx if the current similarity score is higher than the old one.
+The second file is used to do the same thing but with the GDPR HTML file.
 
 -----------
-descriptors_prediction.py
+competency_questions_evaluated.py
 -------------------------------------------------------------------------------------------------------------------
 
-The library pyeurovoc was used for this file : https://github.com/racai-ai/pyeurovoc
-
-This file predict the labels for each statements in the Excel file.
-The prediction gives labels associated with probability [0:1] which means :
-- 0 is complete dissimilarity
-- 1 is complete similarity
-
-You can also select how many labels you want, it usually give 6 labels but you can choose with the num_labels parameter.
-
-This code is also taking all the labels to put them into a list, to remove the percentage from the predicted labels. I made a conversion from string to int for the labels.
+This Python file is used to determine competency questions from GDPR statements using ChatGPT API.
+The aim is to find the gaps between GDPR and AI Act.
 
 -------------------------------
-descriptors_conversion.py
+questions_gdpr_filter.py
 ----------------------------------------
 
-This file use the output you have with descriptors_prediction.py and also the Excel file available here : 
-- https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc
-
-This code is doing a dictionary of ID descriptors and EuroVoc descriptors to put the EuroVoc descriptors along the labels.
+This file is used to filter competency questions, which means that if these questions are related to data sharing or not.
+Once we have all questions related to data sharing, we can proceed further with the next Python file.
 
 -------------------------------------------
-AI_Act.xlsx is the Excel which contain all the statements from the Artificial Intelligence Act (HTML file) from Article 1 to Article 85.
+questions_label_generation.py
+----------------------------------------
 
-EuroVoc_2.xlsx is the Excel file which contain all statements from the AI Act and GDPR Article and their predicted labels.
+This file is used to generate labels of 3-4 words based on the competency questions that are related to data sharing.
+These labels will be used to make groups of questions.
 
-EuroVoc_firstpart.xlsx is the Excel file which contain all highest similarity scores for each statement from the AI Act (compared with each statement from GDPR Article). That is the first part of the project, this file is the test file.
+-------------------------------------------
+aiact_descripency.py
+----------------------------------------
 
-eurovoc_export_en_modif.xlsx is the Excel file with EuroVoc descriptors and their ID (convert into int type).
+After generating these labels, you have to know if these questions are mentionned in the AI ACT.
+With this file, you can query ChatGPT with your own database.
+The database for us will be the AI ACT.
+You can then query ChatGPT to ask if these competency questions are mentionned in the AI ACT.
+We will keep all "NO" answers from these results.
 
-EuroVoc_tags_2.xlsx is the Excel file which contain all statements from both documents (AI Act/GDPR) and their predicted descriptors transformed from numbers to a string by the **descriptors_conversion.py**.
+-------------------------------------------
+excel_to_rdf.py
+----------------------------------------
 
-similarity_whole_ai.xlsx is the Excel file which contain the highest similarity scores using by the python file : **similarity_score.py**
+Once you have done all the previous steps, you can now create your RDF file which will be used for the knowledge graph.
+With this file, you will generate a RDF file in Turtle format using data you have stocked in the Excel file.
+This will create the node Concept with the labels and then other nodes called "Questions" that will be related to Concept nodes.
+In "Questions" nodes, you will have the definition which is the original statement from GDPR (the question is based on this statement) and then you will have the explanation which is the explanation of the gap between GDPR and AI Act on this question.
 
+-------------------------------------------
+knowledge_graph.py
+----------------------------------------
 
+Now that you have the RDF file, you can now create the knowledge graph with the use of Kglab's python library, which allow you to visualize your graph on a web interface.
+You can also use other applications to visualize your graph.
+
+-------------------------------------------
+Excel files
+-------------------------------------------
+ai_act_statements.xlsx is the Excel which contain all the statements from the Artificial Intelligence Act (HTML file) from Article 1 to Article 85.
+
+gdpr_statements.xlsx is the Excel file which contain all statements from the GDPR.
+
+competency_questions_evaluated.xlsx is the Excel file which contain all competency questions from GDPR statements that are related to data sharing. With explanation of gap, label generated and original statement from GDPR.
+
+aiact_gdpr_extracted_statements.xlsx is the Excel file which contain all competency questions and original statements from GDPR. This Excel file is used to know if competency questions are related to data sharing.

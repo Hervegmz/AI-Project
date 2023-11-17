@@ -15,7 +15,7 @@ from loguru import logger
 
 import pandas as pd
 _ = load_dotenv(find_dotenv())
-os.environ["OPENAI_API_KEY"] =  "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" #dr mansoor key #
+os.environ["OPENAI_API_KEY"] =  "openai_key" #Put your own OPENAI key
 
 embedding = OpenAIEmbeddings()
 
